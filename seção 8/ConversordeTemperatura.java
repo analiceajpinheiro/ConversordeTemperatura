@@ -37,6 +37,7 @@ public class ConversordeTemperatura {
         double fahrenheit = (celsius * 9 / 5) + 32;
 
         System.out.println(celsius + " Ccd convertido eh igual a: " + fahrenheit + "F");
+        s.close();
     }
 
     public static void converterFparaC(){
